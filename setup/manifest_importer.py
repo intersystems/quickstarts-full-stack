@@ -1,6 +1,9 @@
+#!/opt/anaconda/bin/python
+
 import json
-import pyodbc
 from datetime import date
+
+import pyodbc
 
 KEYFIELDNAMES = ["vendor_id", "vendor_product_code", "quantity_kg"]
 
@@ -68,7 +71,7 @@ def get_connection_info(file_name):
     Returns:
         a dictionary containing connection details
     """
-    
+
     # Initial empty dictionary to store connection details
     connections = {}
 
@@ -93,9 +96,9 @@ def main():
     """
     with open('./order_manifest.json') as f:
         data = json.load(f)
-    
+
     data, status, exp = validate_manifest(data)
-    
+
     if status:
         # Retrieve connection information from configuration file
         connection_detail = get_connection_info("connection.config")
