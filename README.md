@@ -8,7 +8,4 @@ This exercise runs in an InterSystems sandbox environment and is divided into th
 - **Part 2:** Build a RESTful API to handle business functions using ObjectScript.
 - **Part 3:** Build an online storefront to sell your artisan coffee beans using the popular JavaScript framework, Vue.js.
 
-[**Start the tutorial.**](https://gettingstarted.intersystems.com/full-stack/)
-
-
-![the 3 steps of the QuickStart](https://gettingstarted.intersystems.com/wp-content/uploads/2021/03/IrisCoffee-Sketch1-01.png)
+[**Start the tutorial.**](https://play.instruqt.com/embed/intersystems/tracks/full-stack-tutorial?token=em_eozcmi6tqablziyt)
